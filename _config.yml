@@ -8,7 +8,7 @@ plugins: [jekyll-paginate]
 port: 4000
 safe: true
 url: https://yangzhewen.github.io
-author: Fábio Madeira
+author: Zhewen Yang
 
 # edit this section with your information
 # jekyllt.github.io - all contents run on /vitae/
