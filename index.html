@@ -1,19 +1,94 @@
----
-layout: layout
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zhewen Yang | Networking Research</title>
+  <meta name="description" content="Zhewen Yang is a Computer Engineering PhD student at Northeastern University researching network systems, network measurement, infrastructure, and data center networks.">
+  <meta name="theme-color" content="#f2efe7">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yangzhewen.github.io/">
+  <meta property="og:title" content="Zhewen Yang | Networking Research">
+  <meta property="og:description" content="Network systems, network measurement, infrastructure, and data center networking.">
+  <meta property="og:image" content="https://yangzhewen.github.io/og-network-v2.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://yangzhewen.github.io/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/css/research-site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Zhewen Yang, home">ZY<span>.</span></a>
+    <nav aria-label="Primary navigation"><a href="#research">Research</a><a href="#publications">Publications</a><a href="#experience">Experience</a></nav>
+    <a class="contact-link" href="mailto:yang.zhewe@northeastern.edu">Let&rsquo;s talk <span aria-hidden="true">↗</span></a>
+  </header>
 
-{% include aboutme.html %}
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> PhD Student · Northeastern University</p>
+        <h1>Studying networks<br><em>from systems to measurement.</em></h1>
+        <p class="hero-intro">I&rsquo;m <strong>Zhewen Yang</strong> (Lucas), a Computer Engineering PhD student focused on network systems, measurement, infrastructure, and data center networking. I work closely with <a href="https://coe.northeastern.edu/people/koutsonikolas-dimitrios/" target="_blank" rel="noreferrer">Prof. Dimitrios Koutsonikolas</a>.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#publications">Explore my work <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="/ZhewenYang_CV_JHU_for%20_phd_2024.pdf" target="_blank" rel="noreferrer">Download CV ↓</a></div>
+        <div class="research-line" aria-label="Research areas"><span>01 · Network Systems</span><span>02 · Measurement</span><span>03 · Infrastructure</span></div>
+      </div>
+      <aside class="portrait-panel" aria-label="Portrait and current position">
+        <div class="portrait-frame"><img src="/static/img/profile.png" alt="Zhewen Yang"></div>
+        <div class="status-card"><span class="status-dot"></span><div><small>Current focus</small><strong>Network systems, infrastructure &amp; measurement</strong></div></div>
+        <span class="field-note field-note-one">network systems</span><span class="field-note field-note-two">network measurement</span>
+      </aside>
+    </section>
 
-{% include education.html %}
+    <section class="research-section" id="research">
+      <div class="section-heading"><div><p class="section-kicker">What I investigate</p><h2>Network systems,<br>infrastructure &amp; <em>measurement.</em></h2></div></div>
+      <p class="research-summary">My research interests include network systems, network measurement, network infrastructure, and data center networking.</p>
+      <div class="research-cards">
+        <article><span>01</span><h3>Network<br>Systems</h3><p>Practical networking mechanisms, architectures, and system design.</p></article>
+        <article class="card-blue"><span>02</span><h3>Network<br>Measurement</h3><p>Methods for observing and characterizing network behavior and performance.</p></article>
+        <article><span>03</span><h3>Network<br>Infrastructure</h3><p>Cloud networking and the infrastructure that supports large-scale services.</p></article>
+        <article class="card-acid"><span>04</span><h3>Data Center<br>Networks</h3><p>Virtual networking, programmable networks, and traffic engineering.</p></article>
+      </div>
+    </section>
 
-{% include employment.html %}
+    <section class="publications-section" id="publications">
+      <div class="section-heading publication-heading"><div><p class="section-kicker">Publications</p><h2>Selected<br><em>publications.</em></h2></div><span class="publication-count">03 / selected</span></div>
+      <div class="publication-list">
+        <article class="publication featured"><div class="pub-meta"><span>2025</span><strong>OSDI &rsquo;25</strong></div><div class="pub-copy"><h3>Deriving Semantic Checkers from Tests to Detect Silent Failures in Production Distributed Systems</h3><p>Chang Lou, Dimas Shidqi Parikesit, Yujin Huang, Zhewen Yang, et al.</p></div><a href="https://www.usenix.org/conference/osdi25/presentation/lou" target="_blank" rel="noreferrer" aria-label="Read the OSDI 2025 paper">↗</a></article>
+        <article class="publication"><div class="pub-meta"><span>2023</span><strong>NSDI &rsquo;23</strong></div><div class="pub-copy"><h3>Norma: Towards Practical Network Load Testing</h3><p>Yanqing Chen, Bingchuan Tian, Chen Tian, Li Dai, Yu Zhou, Mengjing Ma, Ming Tang, Hao Zheng, Zhewen Yang, et al.</p></div><a href="https://www.usenix.org/conference/nsdi23/presentation/chen-yanqing" target="_blank" rel="noreferrer" aria-label="Read the NSDI 2023 paper">↗</a></article>
+        <article class="publication"><div class="pub-meta"><span>2023</span><strong>arXiv</strong></div><div class="pub-copy"><h3>ProNet: Network-level Bandwidth Sharing among Tenants in Cloud</h3><p>Zhewen Yang, Changrong Wu, Chen Tian, and Zhaochen Zhang</p></div><a href="https://arxiv.org/abs/2305.02560" target="_blank" rel="noreferrer" aria-label="Read the ProNet paper">↗</a></article>
+      </div>
+      <p class="speaker-note"><span>●</span> I presented <em>Norma</em> at NSDI &rsquo;23 in Boston.</p>
+    </section>
 
-{% include publication.html %}
+    <section class="experience-section" id="experience">
+      <div class="experience-intro"><p class="section-kicker">Where I&rsquo;ve worked</p><h2>Research and<br><em>experience.</em></h2><p>My work has included programmable networking, network load testing, video streaming, distributed systems, and cloud virtual networks.</p></div>
+      <div class="timeline">
+        <article><span class="timeline-index">01</span><div><time>JAN — AUG 2026</time><h3>PhD Research Intern</h3><strong>ByteDance</strong><p>Virtual Network Group · Bellevue, WA · Two network systems papers in progress</p></div></article>
+        <article><span class="timeline-index">02</span><div><time>2025 — NOW</time><h3>PhD Student</h3><strong>Northeastern University</strong><p>Networking research · Working closely with Prof. Dimitrios Koutsonikolas · Boston, MA</p></div></article>
+        <article><span class="timeline-index">03</span><div><time>2024</time><h3>Research Assistant</h3><strong>HKUST</strong><p>Lossless video streaming · Prof. Zili Meng</p></div></article>
+        <article><span class="timeline-index">04</span><div><time>2023 — 2024</time><h3>Lab Intern</h3><strong>University of Michigan</strong><p>Silent failure detection · Prof. Ryan Huang and Prof. Chang Lou</p></div></article>
+        <article><span class="timeline-index">05</span><div><time>2023 — 2024</time><h3>Lab Intern</h3><strong>UC Berkeley</strong><p>Network architecture · Prof. Scott Shenker</p></div></article>
+        <article><span class="timeline-index">06</span><div><time>2021 — 2022</time><h3>Research Assistant</h3><strong>Nanjing University</strong><p>Programmable networks · Prof. Chen Tian</p></div></article>
+      </div>
+    </section>
 
-{% include conf.html %}
+    <section class="education-section">
+      <p class="section-kicker">Education</p>
+      <div class="education-grid"><article><span>2025 —</span><h3>Northeastern<br>University</h3><p>PhD · Computer Engineering<br>Boston, Massachusetts</p></article><article><span>2023 — 2024</span><h3>Johns Hopkins<br>University</h3><p>M.Eng. · Computer Science<br>Baltimore, Maryland</p></article><article><span>2017 — 2021</span><h3>Xi&rsquo;an Jiaotong<br>University</h3><p>B.Eng. · Computer Science and Technology<br>Honors Science Program</p></article></div>
+    </section>
 
-{% include teach.html %}
+    <section class="human-section">
+      <div class="human-heading"><p class="section-kicker">Outside research</p><h2>Interests beyond<br><em>computer networks.</em></h2><a class="neoform-sticker" href="https://www.artofmtg.com/art/neoform/" target="_blank" rel="noreferrer"><img src="/neoform-art.jpg" alt="Neoform card art by Bram Sels"><span>Neoform · Art by Bram Sels ↗</span></a></div>
+      <div class="human-copy"><p>Outside research, I play a lot of <a href="https://magic.wizards.com/en/" target="_blank" rel="noreferrer">Magic: The Gathering</a>, follow the <a href="https://www.mlb.com/orioles" target="_blank" rel="noreferrer">Orioles</a>, enjoy the <a href="https://www.starwars.com/" target="_blank" rel="noreferrer">Star Wars</a> universe, and listen to R&amp;B.</p><div class="human-news"><strong>News</strong><span>Just qualified for the Magic: The Gathering U.S. Regional Championship ($100K prize pool) — see you in Baltimore!</span></div></div>
+      <div class="human-tags" aria-label="Personal interests"><a href="https://magic.wizards.com/en/" target="_blank" rel="noreferrer">Magic: The Gathering ↗</a><a href="https://www.mlb.com/orioles" target="_blank" rel="noreferrer">Baltimore Orioles ↗</a><a href="https://www.starwars.com/" target="_blank" rel="noreferrer">Star Wars ↗</a><a href="https://www.theweeknd.com/" target="_blank" rel="noreferrer">The Weeknd ↗</a></div>
+    </section>
+  </main>
 
-<!--{% include initiatives.html %}-->
-
-<!--{% include interests.html %}-->
+  <footer>
+    <div class="footer-title"><p>Want to connect?</p><h2>Let&rsquo;s talk about<br><em>networks and research.</em></h2></div>
+    <div class="footer-links"><a href="mailto:yang.zhewe@northeastern.edu">Email <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/zhewen-yang/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://github.com/yangzhewen" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+    <div class="footer-bottom"><span>© 2026 Zhewen Yang</span><span>Research interests · Boston</span><a href="#top">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
