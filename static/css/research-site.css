@@ -37,3 +37,9 @@ footer { background: var(--paper); padding: clamp(80px, 9vw, 130px) clamp(24px, 
 .human-copy > p { margin: 0; font-size: 19px; line-height: 1.65; }
 .human-copy > p a { border-bottom: 1px solid rgba(255,255,255,.65); }
 @media (max-width: 600px) { .human-copy > p { font-size: 17px; } }
+
+.publication-news { margin-top: 28px; padding: 18px 20px; display: grid; grid-template-columns: 150px 1fr auto; gap: 24px; align-items: center; color: white; background: var(--blue); }
+.publication-news > span { color: var(--acid); font: 10px var(--font-geist-mono), monospace; text-transform: uppercase; letter-spacing: .1em; }
+.publication-news strong { font-size: 14px; line-height: 1.45; }
+.publication-news a { padding-bottom: 3px; border-bottom: 1px solid currentColor; font: 10px var(--font-geist-mono), monospace; text-transform: uppercase; letter-spacing: .08em; }
+@media (max-width: 600px) { .publication-news { grid-template-columns: 1fr; gap: 10px; }.publication-news a { width: fit-content; } }
